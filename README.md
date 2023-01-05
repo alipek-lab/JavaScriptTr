@@ -1,4 +1,7 @@
 # JavaScript Bilgi Kaynağı
+- Sayfaya yazdırma
+- Hedef
+- Javascript ifadeleri
 
 ## Sayfada JavaScript Görüntüleme Olanakları
 
