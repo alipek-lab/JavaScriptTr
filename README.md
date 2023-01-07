@@ -3,6 +3,8 @@
 - Sayfada JavaScript Görüntüleme Olanakları
 - Javascript İfadeleri
 
+Aşağıdaki çalışmada geçen JavaScript kodlarını hızlı bir şekilde bu sitede çalıştırıp deneyimleyebilirsiniz; https://codepen.io/pen/
+
 # Sayfada JavaScript Görüntüleme Olanakları
 
 JavaScript verileri sayfada farklı şekillerde "görüntüleyebilir":
@@ -128,3 +130,28 @@ Bu eğitimde öğreneceğiniz bazı anahtar kelimelerin bir listesi:
 |`function`     |Bir işlev bildirir           |
 |`return`       |Bir işlevden çıkar           |
 |`try`          |Bir ifade bloğuna hata işleme uygular|
+
+## Kod içindeki Yorumlar
+JavaScript yorumları JavaScript kodunu açıklamak ve daha okunaklı hale getirmek için kullanılabilir. Ayrıca alternatif olarak yazılan veya geçici olarak askıya alınan kodu test ederken yürütmeyi önlemek için de kullanılabilir.
+
+Tek satırlık yorumlar // ile başlar. Bu işaretten sonraki ifadeleri kod dikkate almaz
+```
+// Tanımlama değişti:
+document.getElementById("myH").innerHTML = "Ben Kırmızı";
+//document.getElementById("myP").innerHTML = "Ben Kırmızı";
+
+let x = 5;      // 5 değerini x değişkenine atadık
+let y = x + 2;  // x+2 değişkenini y değişkenine atadık
+```
+## Çok Satırlı Yorumlar
+Çok satırlı yorumlar /* ile başlar ve */ ile biter . Tek satırlık açıklamaların kullanılması en yaygın olanıdır. Blok yorumlar genellikle resmi belgeler için kullanılır.
+```
+/*
+Burada hesaplama işlemi yapıldı:
+Hesaplama işlemi yapılırken matematiksel ifadeler kullanıldı
+işlem işaretleri arasında boşluk bırakıldı
+let x = 7;
+*/
+let x = 5;      // 5 değerini x değişkenine atadık
+let y = x + 2;  // x+2 değişkenini y değişkenine atadık
+```
